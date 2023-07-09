@@ -1,0 +1,58 @@
+.fdiv{
+  
+  background-color:dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  
+}
+.form input{
+  width: 85%;
+
+}
+.form input,button{
+  height: 30px;
+}
+.form button{
+  padding: 7px 10px;
+}
+.uld{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.uld ul{
+  width: 100%;
+
+list-style-type: none;
+
+
+  flex-direction: column;
+  
+}
+.uld ul li{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  margin-left: -35px;
+  background-color: #fff;
+  width: 110%;
+}
+.uld ul li p{
+  width: 100%;
+  padding: 5px;
+}
